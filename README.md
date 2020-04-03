@@ -13,3 +13,9 @@
 
 # 🐍 andi-python
 Ensemble d'outils et scripts python utilisés dans le cadre de l'expérimentation ANDi
+
+## sirene_import
+Ensemble de scripts d'import et de mise à jour de données entreprises (sirene / insee) de différentes sources.
+
+## charing
+Génération de funnel / visualisation de données (essai avant de passer sur des notebooks Jupyter).
