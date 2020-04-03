@@ -14,6 +14,8 @@
 # 🐍 andi-python
 Ensemble d'outils et scripts python utilisés dans le cadre de l'expérimentation ANDi
 
+Chaque répertoire contient sa propre documentation, dépendances et Makefile s'il y a lieu.
+
 ## sirene_import
 Ensemble de scripts d'import et de mise à jour de données entreprises (sirene / insee) de différentes sources.
 
