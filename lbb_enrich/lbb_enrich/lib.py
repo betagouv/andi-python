@@ -16,10 +16,15 @@ import logging
 # Pause time before asking for a new token (naïve rate limiting)
 TOKEN_OBTENTION_PAUSE_SECS = 1
 
+# api_bonneboite default return page size
+DEFAULT_PAGE_SIZE = 100
+
 
 class TokenMaster:
     """
     Token master is the master of tokens.
+    He provides valid tokens to those in need.
+    Should a token fail its duty, a new one can be issued.
     """
 
     _token = False
@@ -48,6 +53,7 @@ class TokenMaster:
             'scope': 'application_%s %s' % (self._client_id, 'api_labonneboitev1'),
         }
         while True:
+            # Entering retry loop
             self.logger.info('Querying token')
             auth_request = requests.post(
                 'https://entreprise.pole-emploi.fr/connexion/oauth2/access_token?realm=%2Fpartenaire',
@@ -73,10 +79,12 @@ class TokenMaster:
     def get(self, force=False):
         if not force and self._token_is_ok():
             return self._token
+        if force:
+            self.logger.warning('Force querying new token')
         self._token_reset()
         time.sleep(TOKEN_OBTENTION_PAUSE_SECS)
         # This will crash if excessive redundancy reached, which will mean
-        # more concerning things have happened which demand attention
+        # more concerning things have happened which demand immediate attention
         return self.get()
 
     def is_valid(self, token=False):
@@ -100,3 +108,49 @@ class TokenMaster:
             return True
         except Exception:
             return False
+
+
+class Connector:
+    """
+    This is the one querying the API.
+    He needs a tokenmaster though
+    what you want from him you should know.
+    """
+    _retries = 2
+
+    def __init__(self, tokenMaster):
+        self.tkm = tokenMaster
+        self.logger = logging.getLogger(__name__)
+
+    def _prepare_return(self, data):
+        # Format return data
+        return [{'siret': c['siret'], 'url': c['url'], 'boe': c['boe']} for c in data]
+
+    def query(self, lat, lon, dist, rome_codes, naf_codes=False, page_size=DEFAULT_PAGE_SIZE):
+        params = {
+            'distance': dist,
+            'latitude': lat,
+            'longitude': lon,
+            'page_size': page_size
+        }
+        if naf_codes:
+            params['naf_codes'] = naf_codes
+
+        while True:
+            # Entering retry loop
+            resp = requests.get(
+                'https://api.emploi-store.fr/partenaire/labonneboite/v1/company/',
+                params=params,
+                headers={'Authorization': 'Bearer ' + self.tkm.get()}
+            )
+            try:
+                resp.raise_for_status
+                break
+            except Exception:
+                self.logger.warning('Failed to query labonneboite api: %s; retrying', resp)
+                self._retries -= 1
+                self.tkm.get(force=True)
+                if self._retries <= 0:
+                    self.logger.critical('Can\'t recover, calling it quits')
+                    raise
+        return self._prepare_return(resp.json())
