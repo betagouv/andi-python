@@ -12,3 +12,7 @@ pylint:
 install:
 	pipenv sync --dev
 	pipenv graph
+
+behave:
+	pipenv run behave tests/behave
+
