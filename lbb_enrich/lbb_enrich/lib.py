@@ -4,6 +4,7 @@ import json
 import time
 import logging
 import psycopg2
+from psycopg2.extras import RealDictCursor
 #
 # Lib has to contain a function able to, from a query,
 # Generate a list with sirets, urls and BOE flags
@@ -21,7 +22,7 @@ TOKEN_OBTENTION_PAUSE_SECS = 1
 DEFAULT_PAGE_SIZE = 100
 
 # liste des departements visés
-DEPARTMENTS = [33, 69, 35, 17, 63, 77, 91, 78, 25, 92, 93, 94, 95]
+DEPARTMENTS = "('33', '69', '35', '17', '63', '77', '91', '78', '25', '92', '93', '94', '95')"
 
 
 # Flag identifying parsed rows in the database
@@ -164,14 +165,14 @@ class ApiConnector:
         return self._prepare_return(resp.json())
 
 
-class DbAccess:
+class DbConnector:
     """
     Database accessor
     """
     _conn = False
 
     def __init__(self, config):
-        self._conn = psycopg2.connect(**config['pg'])
+        self._conn = psycopg2.connect(**config)
         self.logger = logging.getLogger(__name__)
 
     def get_companies(self, limit=100):
@@ -181,9 +182,11 @@ class DbAccess:
         and within the list of departments
         """
         sql_raw = """
-        SELECT siret, lat, lon, departement, naf 
-        FROM entreprises WHERE departement IN {departements}
-        AND '{flag}' != ANY(flags) ORDER BY random() limit {limit};
+        SELECT siret, lat, lon, departement, naf
+        FROM entreprises
+        WHERE departement IN {departements}
+        AND '{flag}' != ANY(flags)
+        ORDER BY random() limit {limit};
         """
 
         strings = {
@@ -194,3 +197,33 @@ class DbAccess:
 
         sql = sql_raw.format(**strings)
         self.logger.debug('company sql: %s', sql)
+
+        with self._conn.cursor(cursor_factory=RealDictCursor) as cur:
+            cur.execute(sql)
+            results = cur.fetchall()
+        return [dict(r) for r in results]
+
+    def boe_set(self, siret, boe):
+        """
+        Set BOE flag of company
+        """
+        self.logger.debug('Updating company %s, set boe to %s', siret, boe)
+        sql = """
+        UPDATE "entreprises"
+        SET
+            BOE = %(boe)s,
+            flags = array_append(flags, %(flag)s),
+            date_updated = now()
+        WHERE siret = %(siret)s
+        RETURNING id_internal
+        """
+        data = {
+            'siret': siret,
+            'boe': boe,
+            'flag': DB_FLAG
+        }
+        with self._conn.cursor() as cur:
+            self.logger.debug(sql, data)
+            cur.execute(sql, data)
+            id_internal = cur.fetchone()
+        self.logger.debug('Updated db row %s', id_internal)
