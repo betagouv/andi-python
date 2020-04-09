@@ -3,6 +3,7 @@ import datetime
 import json
 import time
 import logging
+import psycopg2
 #
 # Lib has to contain a function able to, from a query,
 # Generate a list with sirets, urls and BOE flags
@@ -18,6 +19,13 @@ TOKEN_OBTENTION_PAUSE_SECS = 1
 
 # api_bonneboite default return page size
 DEFAULT_PAGE_SIZE = 100
+
+# liste des departements visés
+DEPARTMENTS = [33, 69, 35, 17, 63, 77, 91, 78, 25, 92, 93, 94, 95]
+
+
+# Flag identifying parsed rows in the database
+DB_FLAG = 'boe_poleemploi'
 
 
 class TokenMaster:
@@ -83,7 +91,7 @@ class TokenMaster:
             self.logger.warning('Force querying new token')
         self._token_reset()
         time.sleep(TOKEN_OBTENTION_PAUSE_SECS)
-        # This will crash if excessive redundancy reached, which will mean
+        # THIS will crash if excessive redundancy reached, which will mean
         # more concerning things have happened which demand immediate attention
         return self.get()
 
@@ -110,7 +118,7 @@ class TokenMaster:
             return False
 
 
-class Connector:
+class ApiConnector:
     """
     This is the one querying the API.
     He needs a tokenmaster though
@@ -154,3 +162,35 @@ class Connector:
                     self.logger.critical('Can\'t recover, calling it quits')
                     raise
         return self._prepare_return(resp.json())
+
+
+class DbAccess:
+    """
+    Database accessor
+    """
+    _conn = False
+
+    def __init__(self, config):
+        self._conn = psycopg2.connect(**config['pg'])
+        self.logger = logging.getLogger(__name__)
+
+    def get_companies(self, limit=100):
+        """
+        Obtain a list of randomly select companies
+        not already enriched
+        and within the list of departments
+        """
+        sql_raw = """
+        SELECT siret, lat, lon, departement, naf 
+        FROM entreprises WHERE departement IN {departements}
+        AND '{flag}' != ANY(flags) ORDER BY random() limit {limit};
+        """
+
+        strings = {
+            'flag': DB_FLAG,
+            'departements': DEPARTMENTS,
+            'limit': limit
+        }
+
+        sql = sql_raw.format(**strings)
+        self.logger.debug('company sql: %s', sql)
