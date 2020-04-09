@@ -29,6 +29,7 @@ DEPARTMENTS = "('33', '69', '35', '17', '63', '77', '91', '78', '25', '92', '93'
 
 # Flag identifying parsed rows in the database
 DB_FLAG = 'boe_poleemploi'
+DB_CONTACT_FLAG = 'contact_poleemploi'
 
 
 def get_rome_to_naf_table():
@@ -231,6 +232,7 @@ class DbConnector:
 
     def __init__(self, config, dry_run=False, *, debug=False):
         self._conn = psycopg2.connect(**config)
+        self._conn.autocommit = True
         self.logger = logging.getLogger(__name__)
         self._dry_run = dry_run
         if debug:
@@ -266,6 +268,25 @@ class DbConnector:
             results = cur.fetchall()
         return [dict(r) for r in results]
 
+    def get_company(self, siret):
+        """
+        Obtain data from a single company
+        """
+        sql = """
+        SELECT siret, lat, lon, departement, naf
+        FROM entreprises
+        where siret = %(siret)s;
+        """
+
+        data = {
+            'siret': siret
+        }
+
+        with self._conn.cursor(cursor_factory=RealDictCursor) as cur:
+            cur.execute(sql, data)
+            results = cur.fetchall()
+        return [dict(r) for r in results][0]
+
     def boe_set(self, siret, boe):
         """
         Set BOE flag of company
@@ -286,6 +307,32 @@ class DbConnector:
             'flag': DB_FLAG
         }
 
+        with self._conn.cursor() as cur:
+            self.logger.debug('Updating database:\nquery:%s\ndata:%s', sql, data)
+            if not self._dry_run:
+                cur.execute(sql, data)
+                id_internal = cur.fetchone()
+            else:
+                id_internal = '[DRY_RUN]'
+        self.logger.debug('Updated db row %s', id_internal)
+
+    def contact_set(self, siret, contact):
+        """
+        Set contact info if not already defined
+        """
+        sql = """
+        UPDATE "entreprises"
+        SET
+            phone_official_1 = COALESCE(%(phonenumber)s, phone_official_1),
+            email_official = COALESCE(%(email)s, email_official),
+            website = COALESCE(%(website)s, website),
+            flags = array_append(flags, %(flag)s)
+        WHERE siret = %(siret)s
+        RETURNING id_internal;
+        """
+        data = contact
+        data['flag'] = DB_CONTACT_FLAG
+        data['siret'] = siret
         with self._conn.cursor() as cur:
             self.logger.debug('Updating database:\nquery:%s\ndata:%s', sql, data)
             if not self._dry_run:

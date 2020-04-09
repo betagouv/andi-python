@@ -98,7 +98,7 @@ def run(ctx, dry_run, limit_run):
         matches = ctx.obj['api_agent'].query(
             lat=company['lat'],
             lon=company['lon'],
-            dist=50,
+            dist=10,
             rome_codes=','.join(romes),
         )
         for match in matches:
@@ -106,6 +106,32 @@ def run(ctx, dry_run, limit_run):
             db.boe_set(match['siret'], match['boe'])
             logger.debug('Trying to obtain data from %s', match['url'])
         raise RuntimeError
+
+
+@main.command()
+@click.option('--dry-run', is_flag=True, help="Dry run (no writes)")
+@click.option('--siret', default='', help="Target company siret")
+@click.pass_context
+def target(ctx, dry_run, siret):
+    db = DbConnector(CONFIG['postgresql'], dry_run=dry_run, debug=ctx.obj['debug'])
+    company = db.get_company(siret)
+    print(company)
+    romes = get_naf_romes(company['naf'])
+    matches = ctx.obj['api_agent'].query(
+        lat=company['lat'],
+        lon=company['lon'],
+        dist=2,
+        rome_codes=','.join(romes),
+    )
+    needle = [m for m in matches if m['siret'] == siret]
+    if len(needle) != 1:
+        print("Error, found more then 1 result")
+        print(needle)
+    company_info = needle[0]
+    print(company_info)
+    contact_info = get_contact_data(company_info['url'])
+    db.boe_set(company['siret'], company_info['boe'])
+    db.contact_set(company['siret'], contact_info)
 
 
 if __name__ == '__main__':
