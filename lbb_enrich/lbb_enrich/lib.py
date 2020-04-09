@@ -1,10 +1,13 @@
 import requests
 import datetime
-import json
+import os
+import yaml
 import time
 import logging
 import psycopg2
+import re
 from psycopg2.extras import RealDictCursor
+from bs4 import BeautifulSoup
 #
 # Lib has to contain a function able to, from a query,
 # Generate a list with sirets, urls and BOE flags
@@ -24,9 +27,55 @@ DEFAULT_PAGE_SIZE = 100
 # liste des departements visés
 DEPARTMENTS = "('33', '69', '35', '17', '63', '77', '91', '78', '25', '92', '93', '94', '95')"
 
-
 # Flag identifying parsed rows in the database
 DB_FLAG = 'boe_poleemploi'
+
+
+def get_rome_to_naf_table():
+    # Deprecated
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    defpath = f'{current_dir}/../assets/rome_naf.yml'
+    deffile = open(defpath, 'r')
+    return yaml.safe_load(deffile)
+
+
+def get_rome_family_codes():
+    # Deprecated
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    defpath = f'{current_dir}/../assets/rome_list.yml'
+    deffile = open(defpath, 'r')
+    return yaml.safe_load(deffile)
+
+
+def get_naf_romes(naf):
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    defpath = f'{current_dir}/../assets/naf_div_romes.yml'
+    deffile = open(defpath, 'r')
+    division = naf[0:2]
+    return yaml.safe_load(deffile)[division]
+
+
+def get_contact_data(url):
+    output = {
+        'phonenumber': None,
+        'email': None,
+        'website': None
+    }
+    try:
+        page = requests.get(url)
+        soup = BeautifulSoup(page.text, 'html.parser')
+        target = soup.find_all('h4', text='Contact')[0].findNext('ul')
+        links = target.find_all('a')
+        for link in links:
+            href = link['href']
+            if 'tel:' in href:
+                output['phonenumber'] = link.getText()
+            elif 'mailto:' in href:
+                output['email'] = link.getText()
+            elif 'http' in href[0:5]:
+                output['website'] = href
+    finally:
+        return output
 
 
 class TokenMaster:
@@ -133,14 +182,19 @@ class ApiConnector:
 
     def _prepare_return(self, data):
         # Format return data
-        return [{'siret': c['siret'], 'url': c['url'], 'boe': c['boe']} for c in data]
+        try:
+            return [{'siret': c['siret'], 'url': c['url'], 'boe': c['boe']} for c in data]
+        except Exception:
+            self.logger.critical('Failed data preparation with data: %s', data)
+            raise
 
     def query(self, lat, lon, dist, rome_codes, naf_codes=False, page_size=DEFAULT_PAGE_SIZE):
         params = {
             'distance': dist,
             'latitude': lat,
             'longitude': lon,
-            'page_size': page_size
+            'page_size': page_size,
+            'rome_codes': rome_codes,
         }
         if naf_codes:
             params['naf_codes'] = naf_codes
@@ -162,7 +216,10 @@ class ApiConnector:
                 if self._retries <= 0:
                     self.logger.critical('Can\'t recover, calling it quits')
                     raise
-        return self._prepare_return(resp.json())
+        data = resp.json()
+        if 'companies' in data and data['companies']:
+            return self._prepare_return(data['companies'])
+        return []
 
 
 class DbConnector:
@@ -170,10 +227,16 @@ class DbConnector:
     Database accessor
     """
     _conn = False
+    _dry_run = False
 
-    def __init__(self, config):
+    def __init__(self, config, dry_run=False, *, debug=False):
         self._conn = psycopg2.connect(**config)
         self.logger = logging.getLogger(__name__)
+        self._dry_run = dry_run
+        if debug:
+            self.logger.setLevel(logging.getLevelName('DEBUG'))
+            self.logger.debug('DbConnector debug enabled')
+            self.logger.addHandler(logging.StreamHandler())
 
     def get_companies(self, limit=100):
         """
@@ -222,8 +285,12 @@ class DbConnector:
             'boe': boe,
             'flag': DB_FLAG
         }
+
         with self._conn.cursor() as cur:
-            self.logger.debug(sql, data)
-            cur.execute(sql, data)
-            id_internal = cur.fetchone()
+            self.logger.debug('Updating database:\nquery:%s\ndata:%s', sql, data)
+            if not self._dry_run:
+                cur.execute(sql, data)
+                id_internal = cur.fetchone()
+            else:
+                id_internal = '[DRY_RUN]'
         self.logger.debug('Updated db row %s', id_internal)
