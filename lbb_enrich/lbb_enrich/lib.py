@@ -5,7 +5,6 @@ import yaml
 import time
 import logging
 import psycopg2
-import re
 from psycopg2.extras import RealDictCursor
 from bs4 import BeautifulSoup
 #
@@ -250,7 +249,7 @@ class DbConnector:
         SELECT siret, lat, lon, departement, naf
         FROM entreprises
         WHERE departement IN {departements}
-        AND '{flag}' != ANY(flags)
+        AND '{flag}' <> ALL(flags)
         ORDER BY random() limit {limit};
         """
 
@@ -299,6 +298,7 @@ class DbConnector:
             flags = array_append(flags, %(flag)s),
             date_updated = now()
         WHERE siret = %(siret)s
+        AND %(flag)s <> ALL(flags)
         RETURNING id_internal
         """
         data = {
@@ -328,6 +328,7 @@ class DbConnector:
             website = COALESCE(%(website)s, website),
             flags = array_append(flags, %(flag)s)
         WHERE siret = %(siret)s
+        AND %(flag)s <> ALL(flags)
         RETURNING id_internal;
         """
         data = contact
