@@ -1,13 +1,15 @@
 Feature: query
 
   Scenario: I can query a company on LBB and obtain its BOE flag
-    Given the data from a valid company
+    Given a connection to the api
+    And the data from a valid company
       When I query the API
         Then I have a valid response
         And the response contains the data I need
 
   Scenario: Errors are handled
-    Given data from a company that does not exists
+    Given a connection to the api
+    And data from a company that does not exists
       When I query the API
         Then I receive an error
 
