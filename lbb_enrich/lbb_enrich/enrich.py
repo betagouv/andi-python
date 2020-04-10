@@ -83,12 +83,12 @@ def test(ctx, company_list, naf_to_rome, contact_extraction):
 @main.command()
 @click.option('--dry-run', is_flag=True, help="Dry run (no writes)")
 @click.option('--limit-run', default=20, help="Number of companies to query")
+@click.option('--limit-distance', default=10, help="Max distance of search query")
 @click.pass_context
-def run(ctx, dry_run, limit_run):
+def run(ctx, dry_run, limit_run, limit_distance):
     """
     Run the enricher !
     """
-
     db = DbConnector(CONFIG['postgresql'], dry_run=dry_run, debug=ctx.obj['debug'])
     companies = db.get_companies(limit_run)
     for company in companies:
@@ -98,14 +98,17 @@ def run(ctx, dry_run, limit_run):
         matches = ctx.obj['api_agent'].query(
             lat=company['lat'],
             lon=company['lon'],
-            dist=10,
+            dist=limit_distance,
             rome_codes=','.join(romes),
         )
         for match in matches:
             logger.debug('Updating boe for %s, set to %s', match['siret'], match['boe'])
             db.boe_set(match['siret'], match['boe'])
             logger.debug('Trying to obtain data from %s', match['url'])
-        raise RuntimeError
+            contact_info = get_contact_data(match['url'])
+            if any(contact_info.values()):
+                logger.debug('Found contact information, updating')
+                db.contact_set(match['siret'], contact_info)
 
 
 @main.command()
