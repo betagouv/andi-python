@@ -61,8 +61,18 @@ def get_contact_data(url):
         'email': None,
         'website': None
     }
+    retries = 3
     try:
-        page = requests.get(url)
+        while True:
+            page = requests.get(url)
+            try:
+                page.raise_for_status()
+                break
+            except Exception:
+                retries -= 1
+                time.sleep(2)
+                if retries <= 0:
+                    return output
         soup = BeautifulSoup(page.text, 'html.parser')
         target = soup.find_all('h4', text='Contact')[0].findNext('ul')
         links = target.find_all('a')
