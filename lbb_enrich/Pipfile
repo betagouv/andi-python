@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+isort = "*"
+pylint = "*"
+behave = "*"
+
+[packages]
+requests = "*"
+click = "*"
+pyyaml = "*"
+psycopg2-binary = "*"
+beautifulsoup4 = "*"
+
+[requires]
+python_version = "3.7"
