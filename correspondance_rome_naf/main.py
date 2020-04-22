@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import pandas as pd
 import numpy as np
 import csv
@@ -5,21 +6,27 @@ import time
 from function_lib import (
     rome2nafz_v2 as rome2naf
 )
+"""
+This component was initialy conceived to run in a Jupyter Notebook (a common data science environment),
+this explains the structure may seem strange or ineffective. This also
+explains why data-science libraries such as pandas and numpy have
+been used instead of other alternatives.
+"""
 
 # NAF
-naf_labels = pd.read_csv('/ressources/list_NAF_LBB.csv', sep='|', encoding="utf-8")
+naf_labels = pd.read_csv('./ressources/list_NAF_LBB.csv', sep='|', encoding="utf-8")
 naf_labels.columns = ['nafdot', 'naf', 'label']
 print(f"Obtained {len(naf_labels)} NAF labels")
 # display(HTML(naf_labels.head(5).to_html()))
 
 # ROME
-rome_labels = pd.read_csv('/ressources/liste_rome_LBB.csv', sep=',', encoding="utf-8")
+rome_labels = pd.read_csv('./ressources/liste_rome_LBB.csv', sep=',', encoding="utf-8")
 rome_labels.columns = ['rome', 'rome_1', 'rome_2', 'rome_3', 'label', 'slug']
 print(f"Obtained {len(rome_labels)} ROME labels")
 # display(HTML(rome_labels.head(5).to_html()))
 
 # Chargement des statistiques d'emploi
-emploi_rome_naf = pd.read_csv('/ressources/contrats_30j.csv', sep=',', encoding="utf-8")[['ROME', 'APE700', 'nb_embauches']]
+emploi_rome_naf = pd.read_csv('./ressources/contrats_30j.csv', sep=',', encoding="utf-8")[['ROME', 'APE700', 'nb_embauches']]
 emploi_rome_naf.columns = ['rome', 'naf', 'embauches']
 
 
@@ -48,7 +55,7 @@ for index, row in rome_labels.iterrows():
     result_table[row.rome] = rome2naf(str(row.rome), naf_i).to_dict('r')
     print(f"row {index} : {len(result_table[row.rome])} Naf codes for Rome {row.rome} \"{rome_labels.loc[(rome_labels['rome'] == row.rome, 'label')].iloc[0]}\" ")
 
-output = f"/outputs/andi_rome2naf_{time.strftime('%Y%m%d')}.csv"
+output = f"./output/andi_rome2naf_{time.strftime('%Y%m%d')}.csv"
 i = 0
 with open(output, 'w') as file:
     writer = csv.DictWriter(

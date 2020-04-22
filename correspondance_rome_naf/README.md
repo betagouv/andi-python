@@ -1,8 +1,22 @@
 # NAF / ROME Link Factory
 * Utiliser les diverses données pour calculer une table de correspondance rome / naf
+* Initialement conçu dans un notebook Jupyter, d'ou une structure différente des autres composants
 
 ## Lancement
-Les cellules peuvent être lancées automatiquement ( _run all cells_ ), l'exécution s'arrêtera automatiquement après avoir crée le fichier output: ../outputs/andi_rome2naf_|date|.csv
+Le programme crée un tableau, d'après les ressources dans le répertoire `ressources`, un tableau 
+de correspondance dans le répertoire `outputs`.
+
+Sous pipenv:
+```bash
+$> pipenv install
+$> pipenv run ./main.py
+```
+
+Sans pipenv:
+Initialiser l'environnement d'après `requirements.py`
+```bash
+$> ./main.py
+```
 
 
 ## Autres idées non exploitées:
