@@ -1,0 +1,798 @@
+rome,rome_label,formacode,formacode_label
+32141,Juriste,13275,NOTARIAT
+32141,Juriste,13354,DROIT FISCAL
+32142,Collaborateur juridique,13254,DROIT
+32151,Chargé d'analyses et de développement,12512,URBANISME
+32151,Chargé d'analyses et de développement,14277,SOCIOLOGIE
+32151,Chargé d'analyses et de développement,31575,BUREAU ETUDES
+32152,Chargé d'études et de recherche en sciences de l'Homme,11036,STATISTIQUE
+32152,Chargé d'études et de recherche en sciences de l'Homme,13154,ECONOMIE
+32152,Chargé d'études et de recherche en sciences de l'Homme,14207,ARCHEOLOGIE
+32152,Chargé d'études et de recherche en sciences de l'Homme,14223,GEOGRAPHIE HUMAINE
+32152,Chargé d'études et de recherche en sciences de l'Homme,14224,ANTHROPOLOGIE
+32152,Chargé d'études et de recherche en sciences de l'Homme,14227,HISTOIRE
+32152,Chargé d'études et de recherche en sciences de l'Homme,14235,ETHNOLOGIE
+32152,Chargé d'études et de recherche en sciences de l'Homme,14254,SCIENCES HUMAINES
+32152,Chargé d'études et de recherche en sciences de l'Homme,14277,SOCIOLOGIE
+32152,Chargé d'études et de recherche en sciences de l'Homme,14450,PSYCHOLOGIE EXPERIMENTALE
+32152,Chargé d'études et de recherche en sciences de l'Homme,14454,PSYCHOLOGIE
+32161,Cadre chargé de la sécurité publique,42837,POLICE GENDARMERIE
+32162,Cadre responsable des ressources publiques,13110,CONTROLE GESTION PUBLIQUE
+32162,Cadre responsable des ressources publiques,13121,GESTION PUBLIQUE
+32162,Cadre responsable des ressources publiques,13324,CONTROLE FISCAL
+32163,Cadre responsable de l'utilisation des fonds publics,13110,CONTROLE GESTION PUBLIQUE
+32163,Cadre responsable de l'utilisation des fonds publics,13121,GESTION PUBLIQUE
+32164,Cadre chargé de l'application des droits des personnes,13041,FONCTION PUBLIQUE
+32164,Cadre chargé de l'application des droits des personnes,13213,INSPECTION TRAVAIL
+32165,Cadre technico-administratif des services au public,13041,FONCTION PUBLIQUE
+32165,Cadre technico-administratif des services au public,43432,QUALITE SANTE
+32165,Cadre technico-administratif des services au public,44037,DIRECTION ETABLISSEMENT SOCIOCULTUREL
+32165,Cadre technico-administratif des services au public,44039,GESTION MAISON RETRAITE
+32171,Cadre juridique garant des règles institutionnelles,13237,DROIT PUBLIC
+32171,Cadre juridique garant des règles institutionnelles,13239,DROIT CONSTITUTIONNEL
+32172,Cadre responsable de la mise en oeuvre de la politique des pouvoirs publics,13054,SCIENCE POLITIQUE
+32211,Rédacteur de presse,46404,INFORMATISATION REDACTION
+32211,Rédacteur de presse,46405,ECRITURE JOURNALISTIQUE
+32211,Rédacteur de presse,46407,SECRETARIAT DE REDACTION
+32211,Rédacteur de presse,46425,JOURNALISME
+32212,Créateur de support de communication visuelle,46050,MAQUETTE ELECTRONIQUE
+32212,Créateur de support de communication visuelle,46081,CONCEPTION GRAPHIQUE
+32212,Créateur de support de communication visuelle,46091,MAQUETTE MISE EN PAGE
+32212,Créateur de support de communication visuelle,46115,GRAPHISME VIDEOTEX
+32212,Créateur de support de communication visuelle,46125,GRAPHISME MULTIMEDIA
+32212,Créateur de support de communication visuelle,46131,FILM ANIMATION
+32212,Créateur de support de communication visuelle,46134,INFOGRAPHIE
+32212,Créateur de support de communication visuelle,46422,COMMUNICATION ENTREPRISE
+32213,Chargé de communication,33088,COMMUNICATION INTERNE
+32213,Chargé de communication,46413,SERVICE PRESSE
+32213,Chargé de communication,46422,COMMUNICATION ENTREPRISE
+32213,Chargé de communication,46433,RELATIONS PUBLIQUES
+32214,Spécialiste de la gestion de l'information,46473,DOCUMENTATION
+32214,Spécialiste de la gestion de l'information,46485,ARCHIVES
+32214,Spécialiste de la gestion de l'information,46494,BIBLIOTHEQUE
+32221,Responsable de campagne publicitaire,34074,PUBLICITE
+32222,Responsable du plan média,34074,PUBLICITE
+32222,Responsable du plan média,46422,COMMUNICATION ENTREPRISE
+32222,Responsable du plan média,46433,RELATIONS PUBLIQUES
+32231,Coordinateur d'édition,46054,INDUSTRIE GRAPHIQUE IMPRIMERIE
+32231,Coordinateur d'édition,46427,EDITION
+32241,"Traducteur, interprète",15231,TRADUCTION
+32241,"Traducteur, interprète",15241,INTERPRETARIAT
+32311,Informaticien d'exploitation,31023,EXPLOITATION INFORMATIQUE
+32321,Informaticien d'étude,24491,PROGRAMMATION INFORMATIQUE INDUSTRIELLE
+32321,Informaticien d'étude,31054,INFORMATIQUE
+32321,Informaticien d'étude,31057,GENIE LOGICIEL
+32321,Informaticien d'étude,31067,ANALYSE PROGRAMMATION
+32321,Informaticien d'étude,31091,BUREAUTIQUE CONCEPTION
+32321,Informaticien d'étude,31094,PROJET INFORMATIQUE
+32331,Informaticien expert,24273,ARCHITECTURE RESEAU
+32331,Informaticien expert,31012,INGENIEUR SYSTEME
+32331,Informaticien expert,31038,AUDIT INFORMATIQUE
+32331,Informaticien expert,31057,GENIE LOGICIEL
+32341,Organisateur informaticien,31015,INFOCENTRE
+32341,Organisateur informaticien,31018,MICRO-INFORMATIQUE
+32341,Organisateur informaticien,31060,GESTION INFORMATIQUE
+32341,Organisateur informaticien,31070,VENTE INFORMATIQUE
+32341,Organisateur informaticien,31085,INFORMATISATION
+32341,Organisateur informaticien,31093,CORRESPONDANCE INFORMATIQUE
+32341,Organisateur informaticien,31094,PROJET INFORMATIQUE
+32341,Organisateur informaticien,31095,SCHEMA DIRECTEUR INFORMATIQUE
+32341,Organisateur informaticien,31096,CAHIER CHARGES INFORMATIQUE
+33111,Acheteur industriel,34002,NEGOCIATION ACHAT
+33111,Acheteur industriel,34016,MARKETING ACHAT
+33111,Acheteur industriel,34024,ACHAT
+33111,Acheteur industriel,34292,ACHAT INTERNATIONAL
+33112,Responsable de la stratégie commerciale,34052,MARKETING
+33112,Responsable de la stratégie commerciale,34085,STRATEGIE COMMERCIALE
+33112,Responsable de la stratégie commerciale,34260,MARKETING INTERNATIONAL
+33112,Responsable de la stratégie commerciale,34279,ASSISTANCE EXPORT
+33112,Responsable de la stratégie commerciale,34573,ACTION COMMERCIALE
+33113,Responsable des ventes,34254,COMMERCE INTERNATIONAL
+33113,Responsable des ventes,34532,VENTE
+33114,Chef de produit,34030,CHEF PRODUIT
+33114,Chef de produit,34052,MARKETING
+33114,Chef de produit,34060,ETUDE MARCHE
+33115,Cadre de gestion administrative des ventes,34056,ADMINISTRATION VENTES
+33115,Cadre de gestion administrative des ventes,34256,EXPORTATION
+33115,Cadre de gestion administrative des ventes,34532,VENTE
+33121,Marchandiseur,34597,MARCHANDISAGE
+33122,Acheteur du commerce,34024,ACHAT
+33123,Chef de département commercial,34554,COMMERCIALISATION
+33124,Directeur de magasin,34554,COMMERCIALISATION
+33124,Directeur de magasin,34587,GRANDE DISTRIBUTION
+33211,Conseiller financier bancaire,41003,GESTION PORTEFEUILLE
+33211,Conseiller financier bancaire,41054,BANQUE ASSURANCE
+33212,Attaché commercial bancaire,41040,MARKETING BANCAIRE
+33212,Attaché commercial bancaire,41062,BANQUE
+33212,Attaché commercial bancaire,41083,CLIENTELE PARTICULIER
+33212,Attaché commercial bancaire,41092,CLIENTELE ENTREPRISE
+33213,Responsable d'exploitation bancaire,41062,BANQUE
+33213,Responsable d'exploitation bancaire,41070,GESTION EXPLOITATION BANQUE
+33214,Concepteur gestionnaire de produits bancaires,41002,PRODUIT FINANCIER
+33214,Concepteur gestionnaire de produits bancaires,41062,BANQUE
+33215,Conseiller en crédit bancaire,41084,CREDIT BANCAIRE
+33216,Opérateur sur marchés de capitaux,41021,MARCHE FINANCIER SPECIFIQUE
+33216,Opérateur sur marchés de capitaux,41023,MARCHE FINANCIER
+33221,Responsable d'exploitation en assurances,41036,ASSURANCE
+33222,Agent général courtier,41023,MARCHE FINANCIER
+33222,Agent général courtier,41036,ASSURANCE
+33223,Concepteur-animateur développement de produits d'assurances,41036,ASSURANCE
+33224,Inspecteur technico-administratif d'assurances,41015,INSPECTION ASSURANCE
+33225,Inspecteur délégué aux indemnisations en assurances,41015,INSPECTION ASSURANCE
+33225,Inspecteur délégué aux indemnisations en assurances,41028,DOMMAGE ASSURANCE
+33226,Chargé d'études actuarielles en assurances,41036,ASSURANCE
+33226,Chargé d'études actuarielles en assurances,41079,ACTUARIAT
+33231,Chargé de gestion globale en immobilier,41014,GESTION PATRIMOINE
+33231,Chargé de gestion globale en immobilier,42017,GESTION IMMOBILIERE
+33232,Transacteur en immobilier,42029,AGENCE IMMOBILIERE
+33233,Chargé d'opérations immobilières,42017,GESTION IMMOBILIERE
+33233,Chargé d'opérations immobilières,42059,PROMOTION IMMOBILIERE
+33311,Dirigeant de PME/PMI,32054,DIRECTION ENTREPRISE
+33312,Cadre dirigeant de la Fonction Publique (et assimilé),32054,DIRECTION ENTREPRISE
+33313,Cadre d'état-major de grande entreprise privée,32054,DIRECTION ENTREPRISE
+41111,Cultivateur en grandes cultures,21206,PRODUCTION FOURRAGERE
+41111,Cultivateur en grandes cultures,21215,PRODUCTION CEREALE
+41111,Cultivateur en grandes cultures,21226,CULTURE SPECIALISEE
+41111,Cultivateur en grandes cultures,21254,PRODUCTION VEGETALE
+41112,Maraîcher-horticulteur,21207,CULTURE PLANTE MEDICINALE
+41112,Maraîcher-horticulteur,21222,CULTURE SERRE
+41112,Maraîcher-horticulteur,21226,CULTURE SPECIALISEE
+41112,Maraîcher-horticulteur,21239,PEPINIERE
+41112,Maraîcher-horticulteur,21249,FLORICULTURE
+41112,Maraîcher-horticulteur,21256,HORTICULTURE
+41112,Maraîcher-horticulteur,21258,CULTURE LEGUMIERE
+41112,Maraîcher-horticulteur,21259,MARAICHAGE
+41112,Maraîcher-horticulteur,21290,SEMENCE
+41113,Jardinier d'espaces verts,21277,ESPACE VERT
+41113,Jardinier d'espaces verts,21279,ENTRETIEN TERRAIN GOLF
+41114,Arboriculteur-viticulteur,21223,VITICULTURE
+41114,Arboriculteur-viticulteur,21268,PRODUCTION FRUIT
+41115,Sylviculteur,21274,SYLVICULTURE
+41116,Bûcheron,21294,BUCHERONNAGE
+41116,Bûcheron,21297,TAILLE ARBRE
+41117,Aide agricole saisonnier,21215,PRODUCTION CEREALE
+41117,Aide agricole saisonnier,21223,VITICULTURE
+41117,Aide agricole saisonnier,21254,PRODUCTION VEGETALE
+41121,Eleveur de bétail sur sol,21026,ELEVAGE GIBIER
+41121,Eleveur de bétail sur sol,21056,ELEVAGE
+41121,Eleveur de bétail sur sol,21075,ELEVAGE OVIN
+41121,Eleveur de bétail sur sol,21078,ELEVAGE BOVIN
+41122,Eleveur-soigneur de chevaux,21056,ELEVAGE
+41122,Eleveur-soigneur de chevaux,21088,ELEVAGE CHEVAL
+41122,Eleveur-soigneur de chevaux,21099,SOIN CHEVAL
+41123,Eleveur en production laitière,21056,ELEVAGE
+41123,Eleveur en production laitière,21085,ELEVAGE LAITIER
+41123,Eleveur en production laitière,21086,ELEVAGE CAPRIN
+41124,Eleveur hors sol,21015,CUNICULICULTURE
+41124,Eleveur hors sol,21017,ELEVAGE ANIMAL FOURRURE
+41124,Eleveur hors sol,21026,ELEVAGE GIBIER
+41124,Eleveur hors sol,21058,AVICULTURE
+41124,Eleveur hors sol,21097,ELEVAGE PORCIN
+41125,Eleveur spécialisé en productions rares,12010,ANIMAL LABORATOIRE
+41125,Eleveur spécialisé en productions rares,21019,SERICICULTURE
+41125,Eleveur spécialisé en productions rares,21029,HELICICULTURE
+41125,Eleveur spécialisé en productions rares,21039,LOMBRICULTURE
+41125,Eleveur spécialisé en productions rares,21049,APICULTURE
+41125,Eleveur spécialisé en productions rares,21056,ELEVAGE
+41125,Eleveur spécialisé en productions rares,42013,DRESSAGE ANIMAUX
+41131,Polyculteur-éleveur,21054,AGRICULTURE
+41131,Polyculteur-éleveur,21210,POLYCULTURE
+41131,Polyculteur-éleveur,21254,PRODUCTION VEGETALE
+41141,Collecteur d'espèces sauvages,21056,ELEVAGE
+41141,Collecteur d'espèces sauvages,21254,PRODUCTION VEGETALE
+41211,Aquaculteur,21317,CULTURE ALGUE
+41211,Aquaculteur,21347,AQUACULTURE
+41211,Aquaculteur,21349,PISCICULTURE
+41211,Aquaculteur,21368,CONCHYLICULTURE
+41211,Aquaculteur,21385,MARAIS SALANT
+41211,Aquaculteur,21387,MYTILICULTURE
+41211,Aquaculteur,21389,OSTREICULTURE
+41212,Matelot à la pêche,21333,MARIN PECHEUR
+41221,Marin de la navigation maritime,31872,TRANSPORT MARITIME
+41222,Marin de la navigation fluviale,31850,TRANSPORT FLUVIAL
+42111,Assistant des travaux publics et gros oeuvre,22010,AMENAGEMENT ROUTE
+42111,Assistant des travaux publics et gros oeuvre,22013,TRAVAUX FERROVIAIRES
+42111,Assistant des travaux publics et gros oeuvre,22042,TRANCHEE
+42111,Assistant des travaux publics et gros oeuvre,22048,TRAVAUX PORTUAIRES
+42111,Assistant des travaux publics et gros oeuvre,22291,TERRASSEMENT
+42111,Assistant des travaux publics et gros oeuvre,22329,DEMOLITION
+42111,Assistant des travaux publics et gros oeuvre,22354,BATIMENT GROS OEUVRE
+42112,Ouvrier des travaux publics,22048,TRAVAUX PORTUAIRES
+42112,Ouvrier des travaux publics,22054,TRAVAUX PUBLICS
+42112,Ouvrier des travaux publics,22062,VRD
+42112,Ouvrier des travaux publics,22070,CANALISATION RESEAU EXTERIEUR
+42112,Ouvrier des travaux publics,22082,PAVAGE POSE BORDURE
+42113,Ouvrier du béton,22005,OUVRAGE BETON
+42113,Ouvrier du béton,22311,COFFRAGE
+42113,Ouvrier du béton,22320,FERRAILLAGE
+42113,Ouvrier du béton,22395,CONSTRUCTION BETON
+42114,Ouvrier de la maçonnerie,22301,ENDUIT MACONNERIE
+42114,Ouvrier de la maçonnerie,22303,MACONNERIE PIERRE
+42114,Ouvrier de la maçonnerie,22331,BRIQUETAGE
+42114,Ouvrier de la maçonnerie,22334,MACONNERIE
+42121,Monteur en structures métalliques,22318,BARDAGE
+42121,Monteur en structures métalliques,22387,CONSTRUCTION METALLIQUE
+42121,Monteur en structures métalliques,22469,CHARPENTE METALLIQUE
+42122,Monteur en structures bois,22396,CONSTRUCTION BOIS
+42122,Monteur en structures bois,22459,CHARPENTE BOIS
+42123,Couvreur,22437,COUVERTURE
+42123,Couvreur,22439,ZINGUERIE
+42123,Couvreur,22448,COUVERTURE TUILE
+42124,Ouvrier de l'étanchéité et de l'isolation,22618,ISOLATION THERMIQUE
+42124,Ouvrier de l'étanchéité et de l'isolation,22619,ISOLATION PHONIQUE
+42124,Ouvrier de l'étanchéité et de l'isolation,22638,ISOLATION THERMIQUE PHONIQUE
+42124,Ouvrier de l'étanchéité et de l'isolation,22647,ISOLATION BATIMENT
+42124,Ouvrier de l'étanchéité et de l'isolation,22649,ETANCHEITE
+42131,"Ouvrier de l'extraction solide (minerai, minéraux ...)",12258,PROSPECTION EXPLOITATION MINIERE
+42131,"Ouvrier de l'extraction solide (minerai, minéraux ...)",22329,DEMOLITION
+42132,"Ouvrier de l'extraction liquide et gazeuse (pétrole, eau ...)",12227,HYDROGEOLOGIE
+42132,"Ouvrier de l'extraction liquide et gazeuse (pétrole, eau ...)",12229,PROSPECTION EXPLOITATION PETROLE
+42132,"Ouvrier de l'extraction liquide et gazeuse (pétrole, eau ...)",12238,PROSPECTION EXPLOITATION HYDROCARBURE
+42132,"Ouvrier de l'extraction liquide et gazeuse (pétrole, eau ...)",12249,PROSPECTION EXPLOITATION GAZ
+42132,"Ouvrier de l'extraction liquide et gazeuse (pétrole, eau ...)",12532,GESTION RESSOURCE EAU
+42132,"Ouvrier de l'extraction liquide et gazeuse (pétrole, eau ...)",22087,FORAGE
+42211,Electricien du bâtiment et des travaux publics,22692,CHAUFFAGE ELECTRIQUE
+42211,Electricien du bâtiment et des travaux publics,24054,ELECTROTECHNIQUE
+42211,Electricien du bâtiment et des travaux publics,24066,INSTALLATION ELECTRIQUE
+42212,Installateur d'équipements sanitaires et thermiques,22635,CLIMATISATION
+42212,Installateur d'équipements sanitaires et thermiques,22657,FUMISTERIE
+42212,Installateur d'équipements sanitaires et thermiques,22677,PLOMBERIE
+42212,Installateur d'équipements sanitaires et thermiques,22685,INSTALLATION THERMIQUE SANITAIRE
+42221,Poseur de fermetures menuisées,22409,MENUISERIE ALUMINIUM
+42221,Poseur de fermetures menuisées,22417,MENUISERIE PLASTIQUE
+42221,Poseur de fermetures menuisées,22418,MENUISERIE METALLIQUE
+42221,Poseur de fermetures menuisées,22434,VITRERIE MIROITERIE
+42221,Poseur de fermetures menuisées,22479,SERRURERIE
+42221,Poseur de fermetures menuisées,22498,HUISSERIE
+42222,Monteur plaquiste en agencements,22371,PREFABRICATION
+42222,Monteur plaquiste en agencements,22403,PLAQUE PLATRE
+42231,Poseur de revêtements rigides,22405,PARQUET
+42231,Poseur de revêtements rigides,22440,CARRELAGE MOSAIQUE
+42231,Poseur de revêtements rigides,22442,REVETEMENT SOL MUR
+42232,Poseur de revêtements souples,22410,POSE TISSU MURAL
+42232,Poseur de revêtements souples,22423,POSE SOL PLASTIQUE
+42232,Poseur de revêtements souples,22429,COUVERTURE ARDOISE
+42232,Poseur de revêtements souples,22430,POSE MOQUETTE
+42232,Poseur de revêtements souples,22442,REVETEMENT SOL MUR
+42232,Poseur de revêtements souples,22460,POSE PAPIER PEINT
+42233,Peintre en bâtiment,22470,PEINTURE DECORATIVE
+42233,Peintre en bâtiment,22472,PEINTURE BATIMENT
+42233,Peintre en bâtiment,22480,PEINTURE INTERIEURE
+43111,Conducteur de transport de particuliers,31801,CONDUITE TAXI
+43111,Conducteur de transport de particuliers,31803,CONDUITE VOITURE DIRECTION
+43111,Conducteur de transport de particuliers,31812,CONDUITE AUTO
+43111,Conducteur de transport de particuliers,31820,SECURITE CONDUITE
+43111,Conducteur de transport de particuliers,43419,AMBULANCIER
+43112,Conducteur de transport en commun (réseau routier),31804,CONDUITE VEHICULE ARTICULE
+43112,Conducteur de transport en commun (réseau routier),31805,TRANSPORT EN COMMUN
+43112,Conducteur de transport en commun (réseau routier),31820,SECURITE CONDUITE
+43112,Conducteur de transport en commun (réseau routier),42603,CONDUCTEUR TOURISME
+43113,Conducteur-livreur,31807,LIVRAISON
+43114,Conducteur de transport de marchandises (réseau routier),31808,TRANSPORT FRIGORIFIQUE
+43114,Conducteur de transport de marchandises (réseau routier),31816,CONDUITE POIDS LOURD
+43114,Conducteur de transport de marchandises (réseau routier),31819,TRANSPORT PRODUIT CHIMIQUE
+43114,Conducteur de transport de marchandises (réseau routier),31820,SECURITE CONDUITE
+43114,Conducteur de transport de marchandises (réseau routier),31827,TRANSPORT MARCHANDISE
+43114,Conducteur de transport de marchandises (réseau routier),31828,TRANSPORT MATIERE DANGEREUSE
+43121,Conducteur sur réseau guidé,31769,ENGIN FERROVIAIRE
+43121,Conducteur sur réseau guidé,31840,TRANSPORT RESEAU GUIDE
+43211,"Conducteur d'engins de chantier du BTP, du génie civil et de l'exploitation des ca",31706,CHOULEUR CHARGEUR
+43211,"Conducteur d'engins de chantier du BTP, du génie civil et de l'exploitation des ca",31717,ENGIN CHANTIER
+43212,Conducteur d'engins d'exploitation agricole et forestière,21011,MACHINISME AGRICOLE
+43212,Conducteur d'engins d'exploitation agricole et forestière,21204,MACHINISME VITICOLE
+43212,Conducteur d'engins d'exploitation agricole et forestière,21228,MACHINISME HORTICOLE
+43212,Conducteur d'engins d'exploitation agricole et forestière,21295,ENGIN FORESTIER
+43213,Conducteur d'engins de traction,31759,ENGIN TRACTION
+43213,Conducteur d'engins de traction,31769,ENGIN FERROVIAIRE
+43221,Conducteur d'engins de levage,31708,GRUE
+43221,Conducteur d'engins de levage,31726,ELEVATEUR
+43221,Conducteur d'engins de levage,31728,PONT ROULANT
+43221,Conducteur d'engins de levage,31738,PONT ELINGAGE
+43221,Conducteur d'engins de levage,31747,ENGIN MANUTENTION LEVAGE
+43311,Agent du stockage et de la répartition de marchandises,31713,MESSAGERIE STOCKAGE
+43311,Agent du stockage et de la répartition de marchandises,31734,MAGASINAGE
+43312,Agent de manipulation et de déplacement des charges,31729,ELINGAGE
+43312,Agent de manipulation et de déplacement des charges,31738,PONT ELINGAGE
+43312,Agent de manipulation et de déplacement des charges,31754,MANUTENTION
+43312,Agent de manipulation et de déplacement des charges,31768,CARISTE
+43312,Agent de manipulation et de déplacement des charges,31784,PALETTISATION
+43312,Agent de manipulation et de déplacement des charges,31795,SECURITE MANUTENTION
+43312,Agent de manipulation et de déplacement des charges,31891,ACTIVITE PORTUAIRE
+43313,Déménageur,31809,DEMENAGEMENT
+43314,Agent de routage,31713,MESSAGERIE STOCKAGE
+43314,Agent de routage,31734,MAGASINAGE
+43315,Agent distributeur,31754,MANUTENTION
+43321,Agent de manoeuvre du réseau ferré,31769,ENGIN FERROVIAIRE
+43321,Agent de manoeuvre du réseau ferré,31840,TRANSPORT RESEAU GUIDE
+43322,Personnel du mouvement (transport ferroviaire),31840,TRANSPORT RESEAU GUIDE
+43323,Agent de remontée filo-guidée,31842,TRANSPORT FILO-GUIDE
+43331,Personnel administratif de la circulation internationale des marchandises,31847,TRANSPORT INTERNATIONAL
+43332,Affréteur,31856,AFFRETEMENT
+43332,Affréteur,31869,FRET AERIEN
+43333,Litigeur transport,31894,DROIT TRANSPORT
+43333,Litigeur transport,34232,REGLEMENTATION COMMERCE INTERNATIONAL
+43411,Accompagnateur tourisme,42602,GUIDE INTERPRETE
+43411,Accompagnateur tourisme,42611,GUIDE ACCOMPAGNATEUR
+43412,Agent de contrôle des transports en commun,31805,TRANSPORT EN COMMUN
+43413,Personnel navigant commercial de l'aviation civile,31867,TRANSPORT AERIEN
+43413,Personnel navigant commercial de l'aviation civile,31879,HOTESSE AIR STEWARD
+43414,Agent d'escale,31876,PERSONNEL AU SOL
+44111,Agent d'usinage des métaux,23076,USINAGE
+44112,Agent de découpage des métaux,23078,DECOUPAGE
+44113,Conducteur d'équipement de formage,23048,FORMAGE
+44113,Conducteur d'équipement de formage,23059,EMBOUTISSAGE
+44113,Conducteur d'équipement de formage,23690,COUTELLERIE TAILLANDERIE
+44114,Chaudronnier-tôlier,23082,CHAUDRONNERIE INOX
+44114,Chaudronnier-tôlier,23083,CHAUDRONNERIE
+44114,Chaudronnier-tôlier,23094,TOLERIE
+44121,Opérateur-régleur sur machine-outil,23067,FRAISAGE
+44121,Opérateur-régleur sur machine-outil,24404,COMMANDE NUMERIQUE FRAISAGE
+44121,Opérateur-régleur sur machine-outil,24406,COMMANDE NUMERIQUE TOURNAGE
+44121,Opérateur-régleur sur machine-outil,24407,PROGRAMMATION MOCN
+44121,Opérateur-régleur sur machine-outil,24413,CENTRE USINAGE
+44121,Opérateur-régleur sur machine-outil,24425,MOCN
+44131,Agent de montage-assemblage de la construction mécanique,23035,MONTAGE ASSEMBLAGE
+44131,Agent de montage-assemblage de la construction mécanique,23662,CONSTRUCTION MECANIQUE
+44132,Soudeur,23004,SOUDAGE ELECTRODE ENROBEE
+44132,Soudeur,23005,SOUDAGE FAISCEAU ELECTRONS
+44132,Soudeur,23006,SOUDAGE OXYACETYLENIQUE
+44132,Soudeur,23007,SOUDAGE MATIERE PLASTIQUE
+44132,Soudeur,23008,SOUDAGE AUTRE
+44132,Soudeur,23009,SOUDAGE LASER
+44132,Soudeur,23013,SOUDAGE PLASMA
+44132,Soudeur,23014,SOUDAGE ARC
+44132,Soudeur,23026,SOUDAGE
+44132,Soudeur,23028,BRASAGE
+44132,Soudeur,23037,SOUDOBRASAGE
+44133,Charpentier en structures métalliques,22469,CHARPENTE METALLIQUE
+44133,Charpentier en structures métalliques,23601,CHARPENTE MARINE
+44134,Tuyauteur industriel,23084,TUYAUTAGE
+44135,Ajusteur mécanicien,23096,AJUSTAGE
+44141,Agent de traitement thermique,23074,TRAITEMENT THERMIQUE
+44142,Agent de traitement de surface,23042,TRAITEMENT SURFACE
+44142,Agent de traitement de surface,23051,EMAILLAGE
+44142,Agent de traitement de surface,23583,MECANIQUE SURFACE
+44142,Agent de traitement de surface,23607,PEINTURE CARROSSERIE
+44143,Stratifieur-mouliste,23010,MOULAGE PLASTIQUE
+44151,Contrôleur de fabrication de la construction mécanique et du travail des métaux,23033,QUALITE ASSEMBLAGE
+44151,Contrôleur de fabrication de la construction mécanique et du travail des métaux,23062,METALLURGIE
+44151,Contrôleur de fabrication de la construction mécanique et du travail des métaux,23662,CONSTRUCTION MECANIQUE
+44211,Opérateur sur machines automatiques en production électrique et électronique,24016,MONTAGE CABLAGE ELECTRIQUE
+44211,Opérateur sur machines automatiques en production électrique et électronique,24086,DISTRIBUTION ELECTRICITE
+44212,Interconnecteur en matériel électrique et électromécanique,24016,MONTAGE CABLAGE ELECTRIQUE
+44212,Interconnecteur en matériel électrique et électromécanique,24052,ELECTROMECANIQUE
+44212,Interconnecteur en matériel électrique et électromécanique,24086,DISTRIBUTION ELECTRICITE
+44212,Interconnecteur en matériel électrique et électromécanique,24089,ECLAIRAGE PUBLIC
+44212,Interconnecteur en matériel électrique et électromécanique,24099,ELECTRICITE EQUIPEMENT INDUSTRIEL
+44212,Interconnecteur en matériel électrique et électromécanique,24254,TELECOMMUNICATION
+44213,Interconnecteur en électronique,24254,TELECOMMUNICATION
+44213,Interconnecteur en électronique,24322,MONTAGE CABLAGE ELECTRONIQUE
+44214,Bobinier de la construction électrique et électronique,24070,MOTEUR ELECTRIQUE
+44221,Contrôleur en électricité et électronique,24047,SECURITE ELECTRIQUE
+44221,Contrôleur en électricité et électronique,24360,QUALITE ELECTRONIQUE
+44311,Mécanicien de maintenance,23654,MECANIQUE CONSTRUCTION REPARATION
+44311,Mécanicien de maintenance,23684,ENTRETIEN MECANIQUE
+44312,Affûteur,23097,AFFUTAGE
+44313,Régleur,23654,MECANIQUE CONSTRUCTION REPARATION
+44314,Maintenicien en mécanique aéronautique,23521,AERODYNAMIQUE
+44314,Maintenicien en mécanique aéronautique,23594,MECANIQUE VOL
+44314,Maintenicien en mécanique aéronautique,23613,MECANIQUE AERONAUTIQUE
+44315,Maintenicien en mécanique maritime,21320,MECANIQUE PECHE
+44315,Maintenicien en mécanique maritime,23602,ENTRETIEN MARINE PLAISANCE
+44315,Maintenicien en mécanique maritime,23610,MECANIQUE NAVALE
+44315,Maintenicien en mécanique maritime,23622,CONSTRUCTION MAINTENANCE NAVALE
+44316,"Mécanicien d'engins de chantier, de levage et manutention et de machines agrico",21011,MACHINISME AGRICOLE
+44316,"Mécanicien d'engins de chantier, de levage et manutention et de machines agrico",23604,REPARATION ENGIN MANUTENTION
+44321,Mécanicien de véhicules particuliers et industriels,23605,ELECTRONIQUE AUTOMOBILE
+44321,Mécanicien de véhicules particuliers et industriels,23615,REPARATION VEHICULE INDUSTRIEL
+44321,Mécanicien de véhicules particuliers et industriels,23637,REPARATION AUTOMOBILE
+44321,Mécanicien de véhicules particuliers et industriels,23649,CONTROLE AUTOMOBILE
+44322,"Mécanicien en motocycles, matériels d'entretien et de loisirs",23635,MECANIQUE CYCLE MOTOCYCLE
+44323,Réparateur en carrosserie,23617,CARROSSERIE
+44324,Maintenicien en microsystèmes horlogers et photographiques,23650,OPTIQUE INSTRUMENTALE
+44324,Maintenicien en microsystèmes horlogers et photographiques,23661,MECANIQUE PRECISION
+44324,Maintenicien en microsystèmes horlogers et photographiques,23670,HORLOGERIE
+44331,Electricien de maintenance,23606,ELECTRICITE AUTOMOBILE
+44331,Electricien de maintenance,24069,MAINTENANCE INSTALLATION ELECTRIQUE
+44331,Electricien de maintenance,24099,ELECTRICITE EQUIPEMENT INDUSTRIEL
+44332,"Maintenicien en instruments de bord, équipements électriques et électroniques",24069,MAINTENANCE INSTALLATION ELECTRIQUE
+44332,"Maintenicien en instruments de bord, équipements électriques et électroniques",24340,MAINTENANCE ELECTRONIQUE
+44332,"Maintenicien en instruments de bord, équipements électriques et électroniques",31883,MECANICIEN BORD
+44341,Polymaintenicien,23641,MECANIQUE ARMEMENT
+44341,Polymaintenicien,23654,MECANIQUE CONSTRUCTION REPARATION
+44341,Polymaintenicien,23660,ARMURERIE
+45111,Pilote d'installation des industries chimiques et de production d'énergie,11550,PETROCHIMIE
+45111,Pilote d'installation des industries chimiques et de production d'énergie,22630,CHAUFFERIE CHAUDIERE
+45111,Pilote d'installation des industries chimiques et de production d'énergie,24154,ENERGIE
+45111,Pilote d'installation des industries chimiques et de production d'énergie,24176,PETROLE
+45111,Pilote d'installation des industries chimiques et de production d'énergie,24189,GAZ
+45112,Opérateur sur appareils de transformation physique ou chimique,11514,CONDUITE APPAREIL INDUSTRIE CHIMIQUE
+45113,Opérateur sur machines de formage des matières plastiques et du caoutchouc,23001,THERMOFORMAGE
+45113,Opérateur sur machines de formage des matières plastiques et du caoutchouc,23010,MOULAGE PLASTIQUE
+45113,Opérateur sur machines de formage des matières plastiques et du caoutchouc,23021,PLASTURGIE
+45113,Opérateur sur machines de formage des matières plastiques et du caoutchouc,23048,FORMAGE
+45113,Opérateur sur machines de formage des matières plastiques et du caoutchouc,23092,CHAUDRONNERIE PLASTIQUE
+45121,Pilote d'installation des industries agro-alimentaires,21554,AGRO-ALIMENTAIRE
+45121,Pilote d'installation des industries agro-alimentaires,31711,SILO
+45122,Opérateur sur machines et appareils de fabrication des industries agroalimentaire,21538,BOULANGERIE
+45122,Opérateur sur machines et appareils de fabrication des industries agroalimentaire,21554,AGRO-ALIMENTAIRE
+45211,Pilote d'installation de production des métaux,22834,MATERIAU METALLIQUE
+45211,Pilote d'installation de production des métaux,23062,METALLURGIE
+45212,Opérateur de production des métaux,23062,METALLURGIE
+45212,Opérateur de production des métaux,23071,SIDERURGIE
+45212,Opérateur de production des métaux,23090,FONDERIE
+45212,Opérateur de production des métaux,23091,ACIERIE
+45213,Opérateur sur machines de première transformation des métaux,23058,ETIRAGE
+45213,Opérateur sur machines de première transformation des métaux,23070,LAMINAGE
+45213,Opérateur sur machines de première transformation des métaux,23080,TREFILAGE
+45221,Pilote d'installation de production de matière verrière,22820,VERRE
+45222,Opérateur de formage du verre,22820,VERRE
+45222,Opérateur de formage du verre,23048,FORMAGE
+45231,Pilote d'installation de production cimentière,22851,CIMENT
+45231,Pilote d'installation de production cimentière,22861,BETON
+45232,Opérateur de production de céramique et des matériaux de construction,22821,CERAMIQUE INDUSTRIELLE
+45232,Opérateur de production de céramique et des matériaux de construction,22852,MATERIAU CONSTRUCTION
+45311,Opérateur de production de panneaux à base de bois,22416,MENUISERIE BOIS
+45311,Opérateur de production de panneaux à base de bois,22881,BOIS
+45321,Opérateur de production des pâtes à papier et à carton,22884,PAPIER CARTON
+45322,Opérateur de production de papier-carton,22884,PAPIER CARTON
+45411,"Opérateur sur machines de finition, contrôle et conditionnement",31336,CONTROLE QUALITE
+45411,"Opérateur sur machines de finition, contrôle et conditionnement",31752,CONDITIONNEMENT EMBALLAGE
+45412,"Agent main de finition, contrôle et conditionnement",31336,CONTROLE QUALITE
+45412,"Agent main de finition, contrôle et conditionnement",31752,CONDITIONNEMENT EMBALLAGE
+45413,Opérateur de laboratoire des industries de process,24360,QUALITE ELECTRONIQUE
+45414,Agent de traitements dépolluants,12520,TRAITEMENT EAU
+45414,Agent de traitements dépolluants,12540,STATION EPURATION
+45414,Agent de traitements dépolluants,12541,ASSAINISSEMENT
+45414,Agent de traitements dépolluants,12582,TRAITEMENT DECHET
+45414,Agent de traitements dépolluants,12591,TRAITEMENT DECHET HOSPITALIER
+45414,Agent de traitements dépolluants,12592,TRAITEMENT DECHET INDUSTRIEL
+45414,Agent de traitements dépolluants,12593,TRAITEMENT DECHET MENAGER
+46111,Trieur-classeur des industries des matériaux souples,21654,TEXTILE
+46111,Trieur-classeur des industries des matériaux souples,21754,HABILLEMENT
+46111,Trieur-classeur des industries des matériaux souples,21831,TRIAGE PEAU
+46111,Trieur-classeur des industries des matériaux souples,21854,CUIR PEAU
+46112,Teinturier-coloriste des industries des matériaux souples,21606,TEINTURE TEXTILE
+46112,Teinturier-coloriste des industries des matériaux souples,21850,TEINTURE PEAU
+46113,Préparateur de produits des industries des matériaux souples,21654,TEXTILE
+46113,Préparateur de produits des industries des matériaux souples,21754,HABILLEMENT
+46113,Préparateur de produits des industries des matériaux souples,21850,TEINTURE PEAU
+46113,Préparateur de produits des industries des matériaux souples,21854,CUIR PEAU
+46114,Patronnier-gradeur des industries des matériaux souples,21771,COUPE PATRONNAGE GRADATION
+46115,Opérateur d'atelier de coupe des industries des matériaux souples,21730,COUPE CONFECTION
+46115,Opérateur d'atelier de coupe des industries des matériaux souples,21771,COUPE PATRONNAGE GRADATION
+46116,Apprêteur des industries des matériaux souples,21617,APPRET TEXTILE
+46116,Apprêteur des industries des matériaux souples,21823,TECHNIQUE CONFECTION CUIR
+46121,Conducteur de machines de filature textile,21650,MACHINE FILATURE
+46121,Conducteur de machines de filature textile,21651,FILATURE
+46122,Conducteur de machines de fabrication de produits textiles,21631,TISSAGE INDUSTRIEL
+46122,Conducteur de machines de fabrication de produits textiles,21634,MACHINE TEXTILE
+46122,Conducteur de machines de fabrication de produits textiles,21691,TULLE
+46123,Opérateur de tannerie-mégisserie,21842,TANNERIE MEGISSERIE
+46124,Opérateur d'assemblage-montage des industries des cuirs et peaux et matériaux ,21804,PIQUAGE CUIR
+46124,Opérateur d'assemblage-montage des industries des cuirs et peaux et matériaux ,21812,COUPE CUIR
+46124,Opérateur d'assemblage-montage des industries des cuirs et peaux et matériaux ,21814,MONTAGE CUIR
+46124,Opérateur d'assemblage-montage des industries des cuirs et peaux et matériaux ,21823,TECHNIQUE CONFECTION CUIR
+46124,Opérateur d'assemblage-montage des industries des cuirs et peaux et matériaux ,21854,CUIR PEAU
+46125,Opérateur d'assemblage-montage des industries de l'habillement et autres fabrica,21602,REMMAILLAGE
+46125,Opérateur d'assemblage-montage des industries de l'habillement et autres fabrica,21613,COLLETAGE
+46125,Opérateur d'assemblage-montage des industries de l'habillement et autres fabrica,21622,MAILLE BONNETERIE
+46125,Opérateur d'assemblage-montage des industries de l'habillement et autres fabrica,21710,MONTAGE PIQUAGE CONFECTION
+46125,Opérateur d'assemblage-montage des industries de l'habillement et autres fabrica,21733,MATERIEL CONFECTION
+46125,Opérateur d'assemblage-montage des industries de l'habillement et autres fabrica,21742,CONFECTION
+46125,Opérateur d'assemblage-montage des industries de l'habillement et autres fabrica,23630,VOILERIE
+46131,Conducteur de machines d'ennoblissement textile,21605,BLANCHIMENT TEXTILE
+46131,Conducteur de machines d'ennoblissement textile,21607,IMPRESSION TEXTILE
+46131,Conducteur de machines d'ennoblissement textile,21625,ENNOBLISSEMENT TEXTILE
+46132,Opérateur de finition des industries des matériaux souples,21603,RACCOUTRAGE
+46132,Opérateur de finition des industries des matériaux souples,21712,FINITION CONFECTION
+46132,Opérateur de finition des industries des matériaux souples,21740,REPASSAGE CONFECTION
+46132,Opérateur de finition des industries des matériaux souples,21815,FINITION CUIR PEAU
+46133,Visiteur-contrôleur des industries des matériaux souples,21629,CONTROLE TEXTILE
+46134,Opérateur d'entretien des articles textiles,21654,TEXTILE
+46211,Préparateur-correcteur des industries graphiques,46047,PREPARATION COPIE CORRECTION
+46212,Opérateur de composition,46019,TYPOGRAPHIE
+46212,Opérateur de composition,46030,PHOTOCOMPOSITION
+46212,Opérateur de composition,46041,COMPOSITION
+46213,Préparateur en forme imprimante,46004,PHOTOMONTAGE ELECTRONIQUE
+46213,Préparateur en forme imprimante,46005,MONTAGE OFFSET
+46213,Préparateur en forme imprimante,46025,MONTAGE IMPRIMERIE
+46213,Préparateur en forme imprimante,46054,INDUSTRIE GRAPHIQUE IMPRIMERIE
+46214,Photograveur,46011,SELECTION COULEUR
+46214,Photograveur,46013,SCANNER IMPRIMERIE
+46214,Photograveur,46033,PHOTOGRAVURE
+46221,Conducteur de machines d'impression,46007,PHOTO REPRODUCTION
+46221,Conducteur de machines d'impression,46016,CONDUITE OFFSET
+46221,Conducteur de machines d'impression,46027,IMPRESSION
+46222,Bobinier-receveur des industries graphiques,46027,IMPRESSION
+46231,Conducteur de machines de façonnage,46069,DORURE IMPRIMERIE
+46231,Conducteur de machines de façonnage,46077,FACONNAGE IMPRIMERIE
+46231,Conducteur de machines de façonnage,46079,PLIAGE IMPRIMERIE
+46231,Conducteur de machines de façonnage,46089,MASSICOTAGE
+46231,Conducteur de machines de façonnage,46098,RELIURE BROCHURE INDUSTRIELLE
+46232,Opérateur d'exécution de façonnage,46077,FACONNAGE IMPRIMERIE
+46241,Opérateur de laboratoire photographique,46168,LABORATOIRE CINE PHOTO
+46241,Opérateur de laboratoire photographique,46169,LABORATOIRE COULEUR
+46241,Opérateur de laboratoire photographique,46179,LABORATOIRE NOIR ET BLANC
+46241,Opérateur de laboratoire photographique,46186,RETOUCHE PHOTO
+46242,Opérateur de laboratoire cinématographique,46129,PROJECTION AUDIOVISUELLE
+46242,Opérateur de laboratoire cinématographique,46168,LABORATOIRE CINE PHOTO
+46311,Opérateur de sciage débit,21296,SCIERIE
+46321,Conducteur de machine de fabrication des industries de l'ameublement et du bois,22416,MENUISERIE BOIS
+46322,Façonneur bois et matériaux associés (production de série),22416,MENUISERIE BOIS
+46323,Monteur d'ouvrages en bois et matériaux associés (production de série),22416,MENUISERIE BOIS
+47111,Préparateur en produits de boulangerie-viennoiserie,21538,BOULANGERIE
+47111,Préparateur en produits de boulangerie-viennoiserie,21539,BOULANGERIE PERFECTIONNEMENT
+47112,Préparateur en produits de pâtisserie-confiserie,21519,CONFISERIE CHOCOLATERIE
+47112,Préparateur en produits de pâtisserie-confiserie,21528,PATISSERIE
+47112,Préparateur en produits de pâtisserie-confiserie,21529,GLACERIE
+47113,"Employé en terminal de cuisson (boulangerie, viennoiserie)",21538,BOULANGERIE
+47121,Opérateur de transformation des viandes,21577,VIANDE
+47122,Préparateur en produits carnés,21577,VIANDE
+47122,Préparateur en produits carnés,21578,VOLAILLERIE
+47122,Préparateur en produits carnés,21597,TRIPERIE
+47122,Préparateur en produits carnés,21599,BOUCHERIE
+47123,Traiteur-charcutier,21585,SALAISON
+47123,Traiteur-charcutier,21589,CHARCUTERIE
+47124,Préparateur en produits de la pêche,21567,TRANSFORMATION PRODUIT MER
+47131,Opérateur de fermentation artisanale,21500,VINIFICATION
+47131,Opérateur de fermentation artisanale,21501,SPIRITUEUX
+47131,Opérateur de fermentation artisanale,21504,FROMAGE
+47131,Opérateur de fermentation artisanale,21512,CIDRE
+47131,Opérateur de fermentation artisanale,21520,BRASSERIE
+47132,Testeur sensoriel,21510,OENOLOGIE
+47132,Testeur sensoriel,21560,DEGUSTATION ALIMENTAIRE
+47141,Assistant de fabrication de l'alimentation,21554,AGRO-ALIMENTAIRE
+47211,Réparateur-retoucheur en habillement,21602,REMMAILLAGE
+47211,Réparateur-retoucheur en habillement,21766,ESSAYAGE RETOUCHE
+47212,Fabricant de vêtements sur mesure ou en petite série,21757,COUTURE
+47212,Fabricant de vêtements sur mesure ou en petite série,21817,FOURRURE
+47213,Fabricant d'articles de chapellerie,21747,CHAPEAU
+47214,Tapissier-décorateur en ameublement,45503,GARNITURE SIEGE
+47214,Tapissier-décorateur en ameublement,45523,TAPISSERIE AMEUBLEMENT
+47221,Fabricant d'articles en cuir et autres matériaux souples (hors vêtement),21854,CUIR PEAU
+47221,Fabricant d'articles en cuir et autres matériaux souples (hors vêtement),21867,CHAUSSURE
+47221,Fabricant d'articles en cuir et autres matériaux souples (hors vêtement),21882,MAROQUINERIE
+47221,Fabricant d'articles en cuir et autres matériaux souples (hors vêtement),21884,SELLERIE
+47221,Fabricant d'articles en cuir et autres matériaux souples (hors vêtement),21888,GANTERIE
+47222,Réparateur d'articles en cuir et autres matériaux souples,21869,CORDONNERIE BOTTERIE
+47231,Professionnel de l'entretien artisanal des textiles,42095,TEINTURERIE PRESSING
+47232,Façonnier d'ouvrages d'art en fils,45038,RESTAURATION OBJET ART
+47232,Façonnier d'ouvrages d'art en fils,45504,TISSAGE ARTISANAL
+47232,Façonnier d'ouvrages d'art en fils,45511,TAPISSERIE LICE
+47232,Façonnier d'ouvrages d'art en fils,45531,DENTELLERIE BRODERIE ARTISANALE
+47311,Métallier artisanal,22478,METALLERIE
+47311,Métallier artisanal,22479,SERRURERIE
+47311,Métallier artisanal,22489,FERRONNERIE BATIMENT
+47311,Métallier artisanal,23690,COUTELLERIE TAILLANDERIE
+47311,Métallier artisanal,45539,DINANDERIE FERBLANTERIE
+47311,Métallier artisanal,45549,FONDERIE ART
+47311,Métallier artisanal,45558,FERRONNERIE ART
+47312,"Professionnel de la bijouterie, orfèvrerie et joaillerie",45529,BJO
+47321,Verrier à la main,45567,VERRERIE ART
+47321,Verrier à la main,45579,VITRAIL
+47322,Céramiste à la main,45597,CERAMIQUE POTERIE
+47331,Réalisateur d'ouvrages en bois et matériaux associés,21203,TONNELLERIE
+47331,Réalisateur d'ouvrages en bois et matériaux associés,22406,ESCALIER BOIS
+47331,Réalisateur d'ouvrages en bois et matériaux associés,22416,MENUISERIE BOIS
+47331,Réalisateur d'ouvrages en bois et matériaux associés,22457,CHARPENTE
+47331,Réalisateur d'ouvrages en bois et matériaux associés,45005,MENUISERIE AGENCEMENT
+47332,Façonnier d'ouvrages décoratifs en bois et matériaux associés,45029,ENCADREMENT ART
+47332,Façonnier d'ouvrages décoratifs en bois et matériaux associés,45560,TOURNAGE BOIS
+47332,Façonnier d'ouvrages décoratifs en bois et matériaux associés,45577,TABLETTERIE
+47332,Façonnier d'ouvrages décoratifs en bois et matériaux associés,45582,EBENISTERIE
+47332,Façonnier d'ouvrages décoratifs en bois et matériaux associés,45585,FABRICATION JOUET
+47332,Façonnier d'ouvrages décoratifs en bois et matériaux associés,45591,MARQUETERIE
+47334,Fabricant d'objets de vannerie,45518,VANNERIE
+47334,Fabricant d'objets de vannerie,45589,BROSSERIE PLUMASSERIE
+47341,Professionnel du travail de la pierre et matériaux associés,22316,TAILLE PIERRE
+47341,Professionnel du travail de la pierre et matériaux associés,22401,STAFF
+47341,Professionnel du travail de la pierre et matériaux associés,22402,STUC
+47341,Professionnel du travail de la pierre et matériaux associés,22420,MARBRERIE
+47341,Professionnel du travail de la pierre et matériaux associés,22490,TRAITEMENT FACADE
+47411,Professionnel de la gravure,45079,GRAVURE ART
+47412,Professionnel de la dorure,45540,DORURE ART
+47413,Professionnel de la reliure,45594,RELIURE ART
+47421,Peintre finisseur d'art,45038,RESTAURATION OBJET ART
+47421,Peintre finisseur d'art,45515,PEINTURE BOIS
+47421,Peintre finisseur d'art,45516,PEINTURE TISSU
+47421,Peintre finisseur d'art,45551,PEINTURE LETTRES
+47421,Peintre finisseur d'art,45598,EMAILLERIE ART
+47431,Facteur-réparateur d'instruments de musique,45583,FACTURE INSTRUMENTALE
+47432,Professionnel de la conservation des animaux,12083,TAXIDERMIE
+51111,Agent d'encadrement de la construction mécanique,23662,CONSTRUCTION MECANIQUE
+51111,Agent d'encadrement de la construction mécanique,32032,ENCADREMENT
+51112,Agent d'encadrement de production électrique et électronique,24054,ELECTROTECHNIQUE
+51112,Agent d'encadrement de production électrique et électronique,24354,ELECTRONIQUE
+51112,Agent d'encadrement de production électrique et électronique,32032,ENCADREMENT
+51121,Agent d'encadrement des industries de process,31569,GESTION ATELIER
+51121,Agent d'encadrement des industries de process,32010,MAITRISE
+51121,Agent d'encadrement des industries de process,32032,ENCADREMENT
+51131,Agent d'encadrement des industries des matériaux souples,21654,TEXTILE
+51131,Agent d'encadrement des industries des matériaux souples,21701,MONITORAT CONFECTION
+51131,Agent d'encadrement des industries des matériaux souples,21711,ENCADREMENT ATELIER CONFECTION
+51131,Agent d'encadrement des industries des matériaux souples,32032,ENCADREMENT
+51132,Agent d'encadrement des industries graphiques,32010,MAITRISE
+51132,Agent d'encadrement des industries graphiques,32032,ENCADREMENT
+51132,Agent d'encadrement des industries graphiques,46054,INDUSTRIE GRAPHIQUE IMPRIMERIE
+51133,Agent d'encadrement des laboratoires photographiques et cinématographiques,32032,ENCADREMENT
+51133,Agent d'encadrement des laboratoires photographiques et cinématographiques,46168,LABORATOIRE CINE PHOTO
+51134,Agent d'encadrement des industries de l'ameublement et du bois,32032,ENCADREMENT
+51211,Agent d'encadrement de maintenance,31503,MAINTENANCE PREVENTIVE
+51211,Agent d'encadrement de maintenance,31504,MAINTENANCE CORRECTIVE
+51211,Agent d'encadrement de maintenance,31515,GESTION MAINTENANCE
+51211,Agent d'encadrement de maintenance,31523,MAO
+51211,Agent d'encadrement de maintenance,31524,MAINTENANCE INDUSTRIELLE
+51211,Agent d'encadrement de maintenance,31526,MAINTENANCE PERFECTIONNEMENT
+51211,Agent d'encadrement de maintenance,31533,MAINTENANCE TOTALE
+51211,Agent d'encadrement de maintenance,32032,ENCADREMENT
+52111,Technicien de méthodes-ordonnancement-planification de l'industrie,31529,BUREAU METHODES
+52111,Technicien de méthodes-ordonnancement-planification de l'industrie,31537,ORGANISATION TRAVAIL
+52111,Technicien de méthodes-ordonnancement-planification de l'industrie,31557,ORDONNANCEMENT
+52111,Technicien de méthodes-ordonnancement-planification de l'industrie,31575,BUREAU ETUDES
+52121,Dessinateur-projeteur de la construction mécanique et du travail des métaux,31575,BUREAU ETUDES
+52121,Dessinateur-projeteur de la construction mécanique et du travail des métaux,31584,CAO
+52122,Dessinateur de la construction mécanique et du travail des métaux,31575,BUREAU ETUDES
+52122,Dessinateur de la construction mécanique et du travail des métaux,31585,DAO
+52131,Technicien d'études-recherche-développement en électricité et électronique,24054,ELECTROTECHNIQUE
+52131,Technicien d'études-recherche-développement en électricité et électronique,24354,ELECTRONIQUE
+52131,Technicien d'études-recherche-développement en électricité et électronique,31575,BUREAU ETUDES
+52132,Dessinateur-projeteur en électricité et électronique,24027,SCHEMA ELECTRIQUE
+52132,Dessinateur-projeteur en électricité et électronique,24311,SCHEMA ELECTRONIQUE
+52132,Dessinateur-projeteur en électricité et électronique,31583,CONDUITE PROJET
+52132,Dessinateur-projeteur en électricité et électronique,31584,CAO
+52132,Dessinateur-projeteur en électricité et électronique,31585,DAO
+52133,Dessinateur en électricité et électronique,24027,SCHEMA ELECTRIQUE
+52133,Dessinateur en électricité et électronique,24311,SCHEMA ELECTRONIQUE
+52141,Technicien de laboratoire de recherche des industries de process,11434,ANALYSE PHYSICO-CHIMIQUE
+52141,Technicien de laboratoire de recherche des industries de process,24354,ELECTRONIQUE
+52151,Modéliste des industries des matériaux souples,21783,MODELISME HABILLEMENT
+52151,Modéliste des industries des matériaux souples,21838,MODELISME CUIR
+52211,Technicien de fabrication de la construction mécanique et du travail des métaux,23654,MECANIQUE CONSTRUCTION REPARATION
+52212,Technicien qualité de la construction mécanique et du travail des métaux,31333,CONTROLE NON DESTRUCTIF
+52212,Technicien qualité de la construction mécanique et du travail des métaux,31360,MICROGRAPHIE
+52212,Technicien qualité de la construction mécanique et du travail des métaux,31361,METALLOGRAPHIE
+52221,Technicien de contrôle-essai-qualité en électricité et électronique,24360,QUALITE ELECTRONIQUE
+52231,Technicien de production des industries de process,22867,PRODUIT CHIMIQUE
+52232,Technicien de laboratoire de contrôle de fabrication des industries de process,11534,GENIE CHIMIQUE
+52232,Technicien de laboratoire de contrôle de fabrication des industries de process,24360,QUALITE ELECTRONIQUE
+52233,Technicien en application industrielle des industries de process,23525,ESSAI MECANIQUE
+52233,Technicien en application industrielle des industries de process,31554,GESTION PRODUCTION
+52235,Technicien d'analyses industrielles des industries de process,31354,QUALITE
+52241,Technicien des industries des matériaux souples,21654,TEXTILE
+52242,Technicien des industries graphiques,46054,INDUSTRIE GRAPHIQUE IMPRIMERIE
+52242,Technicien des industries graphiques,46085,FABRICATION IMPRIMERIE
+52242,Technicien des industries graphiques,46095,DEVIS IMPRIMERIE
+52243,Technicien des industries de l'ameublement et du bois,45019,AMEUBLEMENT
+52311,Technicien d'installation d'équipements industriels et professionnels,24270,INSTALLATION TELECOM
+52312,Installateur-maintenicien en systèmes automatisés,23551,HYDRAULIQUE
+52312,Installateur-maintenicien en systèmes automatisés,24431,MAINTENANCE SYSTEME AUTOMATISE
+52312,Installateur-maintenicien en systèmes automatisés,24447,AUTOMATISME HYDRAULIQUE
+52312,Installateur-maintenicien en systèmes automatisés,24457,AUTOMATISME PNEUMATIQUE
+52313,Installateur-maintenicien en ascenseurs (et autres systèmes automatiques),22493,ASCENSEUR
+52314,Inspecteur de mise en conformité,24049,HABILITATION ELECTRIQUE
+52314,Inspecteur de mise en conformité,24183,REGLEMENTATION THERMIQUE
+52314,Inspecteur de mise en conformité,31348,CERTIFICATION
+52314,Inspecteur de mise en conformité,31349,NORMALISATION
+52315,Rédacteur de notices techniques,31535,DOCUMENTATION MAINTENANCE
+52315,Rédacteur de notices techniques,46475,INFORMATION SCIENTIFIQUE ET TECHNIQUE
+52321,Technicien de maintenance en informatique,31051,MAINTENANCE INFORMATIQUE
+52322,Maintenicien en matériel bureautique,31051,MAINTENANCE INFORMATIQUE
+52331,Maintenicien en biens électrodomestiques,24021,ELECTROMENAGER
+52331,Maintenicien en biens électrodomestiques,24374,MAINTENANCE AUDIOVISUELLE
+52331,Maintenicien en biens électrodomestiques,24394,MAINTENANCE MATERIEL VIDEO
+52331,Maintenicien en biens électrodomestiques,24395,MAINTENANCE RADIO TV HIFI
+52332,"Maintenicien des systèmes thermiques, climatiques et frigoriques",22604,FROID COMMERCIAL
+52332,"Maintenicien des systèmes thermiques, climatiques et frigoriques",22605,FROID INDUSTRIEL
+52332,"Maintenicien des systèmes thermiques, climatiques et frigoriques",22624,INSTALLATION FRIGORIFIQUE
+52332,"Maintenicien des systèmes thermiques, climatiques et frigoriques",22654,GENIE CLIMATIQUE
+52333,Maintenicien en électronique,23660,ARMURERIE
+52333,Maintenicien en électronique,24340,MAINTENANCE ELECTRONIQUE
+52333,Maintenicien en électronique,24374,MAINTENANCE AUDIOVISUELLE
+52333,Maintenicien en électronique,24394,MAINTENANCE MATERIEL VIDEO
+52333,Maintenicien en électronique,24395,MAINTENANCE RADIO TV HIFI
+53111,Cadre technique de méthodes-ordonnancement-planification,31529,BUREAU METHODES
+53111,Cadre technique de méthodes-ordonnancement-planification,31557,ORDONNANCEMENT
+53111,Cadre technique de méthodes-ordonnancement-planification,32032,ENCADREMENT
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,11054,MATHEMATIQUE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,11454,PHYSIQUE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,11474,ASTRONOMIE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,11494,ASTROPHYSIQUE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,11554,CHIMIE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,12023,BOTANIQUE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,12032,ZOOLOGIE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,12046,BIOLOGIE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,12087,PHYSIOLOGIE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,12241,OCEANOGRAPHIE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,12261,METEOROLOGIE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,12275,GEOLOGIE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,12288,PALEONTOLOGIE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,12295,VOLCANOLOGIE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,23542,MECANIQUE FLUIDE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,24167,HYDROCARBURE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,24176,PETROLE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,24179,CHARBON
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,24354,ELECTRONIQUE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,24451,ROBOTIQUE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,32032,ENCADREMENT
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,42898,ERGONOMIE
+53121,Cadre technique d'études scientifiques et de recherche fondamentale,43001,RECHERCHE MEDICALE
+53122,Cadre technique d'études-recherche-développement de l'industrie,23554,MECANIQUE THEORIQUE
+53122,Cadre technique d'études-recherche-développement de l'industrie,24472,AUTOMATISATION
+53122,Cadre technique d'études-recherche-développement de l'industrie,31575,BUREAU ETUDES
+53122,Cadre technique d'études-recherche-développement de l'industrie,31583,CONDUITE PROJET
+53122,Cadre technique d'études-recherche-développement de l'industrie,32032,ENCADREMENT
+53122,Cadre technique d'études-recherche-développement de l'industrie,42898,ERGONOMIE
+53131,Cadre technique de l'environnement,12584,GENIE ENVIRONNEMENT
+53131,Cadre technique de l'environnement,24114,RETRAITEMENT COMBUSTIBLE IRRADIE
+53211,Cadre technique de la production,31554,GESTION PRODUCTION
+53211,Cadre technique de la production,32032,ENCADREMENT
+53212,Cadre technique de contrôle-qualité,31336,CONTROLE QUALITE
+53212,Cadre technique de contrôle-qualité,31359,AUDIT QUALITE
+53212,Cadre technique de contrôle-qualité,31378,CERCLE QUALITE
+53212,Cadre technique de contrôle-qualité,31388,GESTION QUALITE
+53212,Cadre technique de contrôle-qualité,32032,ENCADREMENT
+53213,Cadre technique d'hygiène et sécurité,24132,PREVENTION SECURITE NUCLEAIRE
+53213,Cadre technique d'hygiène et sécurité,32032,ENCADREMENT
+53213,Cadre technique d'hygiène et sécurité,42884,RISQUE INDUSTRIEL
+53311,Cadre technico-commercial,21551,COMMERCIALISATION AGROALIMENTAIRE
+53311,Cadre technico-commercial,34581,TECHNICO-COMMERCIAL
+53312,Ingénieur d'affaires,34590,INGENIEUR AFFAIRES
+53321,"Cadre technique d'entretien, maintenance, travaux neufs",31524,MAINTENANCE INDUSTRIELLE
+61111,Agent technique agricole,21054,AGRICULTURE
+61112,Conseiller d'agriculture,21054,AGRICULTURE
+61113,Chargé d'études et de recherches agricoles et aquacoles,12281,PEDOLOGIE
+61113,Chargé d'études et de recherches agricoles et aquacoles,12586,MANAGEMENT ECOLOGIQUE
+61113,Chargé d'études et de recherches agricoles et aquacoles,21054,AGRICULTURE
+61113,Chargé d'études et de recherches agricoles et aquacoles,21230,AGRONOMIE TROPICALE
+61113,Chargé d'études et de recherches agricoles et aquacoles,21252,AGRONOMIE
+61114,Chargé de la protection du patrimoine naturel,12510,AMENAGEMENT GESTION RIVIERE
+61114,Chargé de la protection du patrimoine naturel,12529,GARDE PARC NATUREL
+61114,Chargé de la protection du patrimoine naturel,12539,CHASSE
+61114,Chargé de la protection du patrimoine naturel,12547,PROTECTION MILIEU NATUREL
+61114,Chargé de la protection du patrimoine naturel,12569,GARDE FORESTIER
+61114,Chargé de la protection du patrimoine naturel,12578,ANIMATION ENVIRONNEMENT
+61114,Chargé de la protection du patrimoine naturel,21312,GARDE PECHE
+61121,Responsable de culture ou d'élevage,21054,AGRICULTURE
+61131,Cadre pont à la pêche,21340,CAPITAINE PECHE
+61131,Cadre pont à la pêche,21360,PATRON PECHE
+61131,Cadre pont à la pêche,21381,LIEUTENANT PECHE
+61211,Architecte du BTP,22223,ARCHITECTURE
+61221,Dessinateur du BTP,22250,DAO BTP
+61221,Dessinateur du BTP,22252,DESSIN BTP
+61222,Géomètre,11067,GEOMETRIE
+61222,Géomètre,12225,TOPOGRAPHIE
+61223,Chargé d'études techniques du BTP,22024,GENIE CIVIL
+61223,Chargé d'études techniques du BTP,22232,METRE BTP
+61223,Chargé d'études techniques du BTP,22254,BTP CONCEPTION ORGANISATION
+61223,Chargé d'études techniques du BTP,22499,DOMOTIQUE
+61224,Chargé d'études techniques du sous-sol,12256,PROSPECTION GEOLOGIQUE
+61224,Chargé d'études techniques du sous-sol,22254,BTP CONCEPTION ORGANISATION
+61224,Chargé d'études techniques du sous-sol,24167,HYDROCARBURE
+61224,Chargé d'études techniques du sous-sol,24176,PETROLE
+61224,Chargé d'études techniques du sous-sol,24179,CHARBON
+61224,Chargé d'études techniques du sous-sol,24189,GAZ
+61231,Chef de chantier du BTP,22294,CONDUITE CHANTIER BTP
+61232,Conducteur de travaux du BTP,22293,CONDUITE TRAVAUX BTP
+61233,Cadre technique d'exploitation des gisements,12229,PROSPECTION EXPLOITATION PETROLE
+61233,Cadre technique d'exploitation des gisements,12249,PROSPECTION EXPLOITATION GAZ
+61233,Cadre technique d'exploitation des gisements,12258,PROSPECTION EXPLOITATION MINIERE
+61233,Cadre technique d'exploitation des gisements,24167,HYDROCARBURE
+61233,Cadre technique d'exploitation des gisements,24176,PETROLE
+61233,Cadre technique d'exploitation des gisements,24179,CHARBON
+61233,Cadre technique d'exploitation des gisements,24189,GAZ
+61311,Responsable logistique,31571,LOGISTIQUE
+61311,Responsable logistique,34287,LOGISTIQUE INTERNATIONALE
+61312,Responsable d'exploitation des transports routiers de marchandises,31827,TRANSPORT MARCHANDISE
+61312,Responsable d'exploitation des transports routiers de marchandises,31895,GESTION ENTREPRISE TRANSPORT
+61313,Responsable d'exploitation des transports routiers de voyageurs,31805,TRANSPORT EN COMMUN
+61313,Responsable d'exploitation des transports routiers de voyageurs,31895,GESTION ENTREPRISE TRANSPORT
+61321,Personnel navigant technique de l'aviation,31886,MECANICIEN NAVIGANT
+61321,Personnel navigant technique de l'aviation,31887,PILOTAGE HELICOPTERE
+61321,Personnel navigant technique de l'aviation,31888,PILOTAGE AVION
+61321,Personnel navigant technique de l'aviation,31889,PILOTE DE LIGNE
+61321,Personnel navigant technique de l'aviation,31899,PILOTAGE QUALIFICATION IFR
+61322,Personnel d'encadrement de la marine,31892,CAPITAINE MARINE
+61322,Personnel d'encadrement de la marine,31893,OFFICIER MARINE
+61331,Technicien de préparation des vols,31876,PERSONNEL AU SOL
+61332,Contrôleur de la navigation aérienne,31876,PERSONNEL AU SOL
