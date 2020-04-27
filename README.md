@@ -12,12 +12,18 @@
 [ANDi](https://andi.beta.gouv.fr) est une service numérique en développement visant à faciliter l'immersion professionnelle des personnes en situation de handicap.
 
 # 🐍 andi-python
-Ensemble d'outils et scripts python utilisés dans le cadre de l'expérimentation ANDi
+Ensemble d'outils et scripts python utilisés dans le cadre de l'expérimentation ANDi.
 
-Chaque répertoire contient sa propre documentation, dépendances et Makefile s'il y a lieu.
+Chaque répertoire contient sa propre documentation, dépendances, `requirements` et Makefile s'il y a lieu.
 
 ## sirene_import
 Ensemble de scripts d'import et de mise à jour de données entreprises (sirene / insee) de différentes sources.
 
-## charing
+## correspondance_rome_naf
+Script initialement sous Jupyter de génération des tableaux de correspondance rome/naf utilisés par l'API ANDi
+
+## lbb_enrich
+Script d'extraction de données (flag BOE, contacts divers) de la DB LaBonneBoite (API emploistore pole emploi)
+
+## charting
 Génération de funnel / visualisation de données (essai avant de passer sur des notebooks Jupyter).
