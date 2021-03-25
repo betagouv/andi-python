@@ -1,5 +1,5 @@
--i https://pypi.org/simple
+-i https://pypi.org/simple/
 click==7.0
 psycopg2-binary==2.8.4
-pyyaml==5.3
+pyyaml==5.4
 unidecode==1.1.1
